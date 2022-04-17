@@ -1,6 +1,6 @@
 @import "reset";
-@import "mixins";
 @import "variables";
 @import "common";
-@import "sections";
-@import "components";
+@import "mixins";
+@import "./sections/sections";
+@import "./components/components";
