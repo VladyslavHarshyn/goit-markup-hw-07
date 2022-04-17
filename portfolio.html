@@ -19,33 +19,31 @@
     <!--  HEADER -->
     <header class="header">
       <div class="container">
-        <nav class="navigation">
+        <nav class="header__nav">
           <a href="./index.html" class="logo"
-            >Web<span class="logo-header">Studio</span></a
+            >Web<span class="header__logo-colored">Studio</span></a
           >
-          <ul class="navigation-menu">
-            <li class="menu-item">
-              <a href="./index.html" class="navigation-menu-link">Студия</a>
+          <ul class="header__menu">
+            <li class="header__menu-item underline">
+              <a href="./index.html" class="header__menu-link active">Студия</a>
             </li>
-            <li class="menu-item underline">
-              <a href="./portfolio.html" class="navigation-menu-link active"
-                >Портфолио</a
-              >
+            <li class="header__menu-item">
+              <a href="./portfolio.html" class="header__menu-link">Портфолио</a>
             </li>
-            <li class="menu-item">
-              <a href="" class="navigation-menu-link">Контакты</a>
+            <li class="header__menu-item">
+              <a href="" class="header__menu-link">Контакты</a>
             </li>
           </ul>
         </nav>
-        <div class="contacts">
-          <a href="mailto:info@devstudio.com" class="contacts-link">
-            <svg class="header-icon">
+        <div class="header__socials">
+          <a href="mailto:info@devstudio.com" class="header__socials-link">
+            <svg class="header__socials-icon">
               <use href="./images/svg/icon/icon.svg#icon-mail"></use>
             </svg>
             info@devstudio.com</a
           >
-          <a href="tel:+38 096 111 11 11" class="contacts-link">
-            <svg class="header-icon">
+          <a href="tel:+38 096 111 11 11" class="header__socials-link">
+            <svg class="header__socials-icon">
               <use href="./images/svg/icon/icon.svg#icon-phone"></use>
             </svg>
             +38 096 111 11 11</a
@@ -55,23 +53,29 @@
     </header>
     <main>
       <!-- Buttons -->
-      <section class="project container">
+      <section class="filter-button container">
         <div>
-          <ul class="filter-button-list">
-            <li class="filter-button-item">
-              <button type="button" class="filter-button">Все</button>
+          <ul class="filter-button__list">
+            <li>
+              <button type="button" class="filter-button__unit">Все</button>
             </li>
-            <li class="filter-button-item">
-              <button type="button" class="filter-button">Веб-сайты</button>
+            <li>
+              <button type="button" class="filter-button__unit">
+                Веб-сайты
+              </button>
             </li>
-            <li class="filter-button-item">
-              <button type="button" class="filter-button">Приложения</button>
+            <li>
+              <button type="button" class="filter-button__unit">
+                Приложения
+              </button>
             </li>
-            <li class="filter-button-item">
-              <button type="button" class="filter-button">Дизайн</button>
+            <li>
+              <button type="button" class="filter-button__unit">Дизайн</button>
             </li>
-            <li class="filter-button-item">
-              <button type="button" class="filter-button">Маркетинг</button>
+            <li>
+              <button type="button" class="filter-button__unit">
+                Маркетинг
+              </button>
             </li>
           </ul>
         </div>
@@ -282,26 +286,26 @@
     <footer class="footer">
       <div class="container footer-container">
         <div class="footer__insider">
-          <div class="footer-addresses">
+          <div class="footer__adds">
             <a href="./index.html" class="logo"
-              >Web<span class="logo-footer">Studio</span></a
+              >Web<span class="footer__logo-colored">Studio</span></a
             >
             <address>
               <ul>
                 <li>
-                  <a href="" class="footer-address"
+                  <a href="" class="footer__address"
                     >г. Киев, пр-т Леси Украинки, 26</a
                   >
                   <br />
                 </li>
                 <li>
-                  <a href="mailto:info@devstudio.com" class="footer-contacts"
+                  <a href="mailto:info@devstudio.com" class="footer__contacts"
                     >info@devstudio.com</a
                   >
                   <br />
                 </li>
                 <li>
-                  <a href="tel:+38 096 111 11 11" class="footer-contacts"
+                  <a href="tel:+38 096 111 11 11" class="footer__contacts"
                     >+38 096 111 11 11</a
                   >
                   <br />
@@ -309,8 +313,8 @@
               </ul>
             </address>
           </div>
-          <div class="footer-socials">
-            <p class="footer-social-text">Присоединяйтесь</p>
+          <div class="footer__socials">
+            <p class="footer__social-text">Присоединяйтесь</p>
             <ul class="social">
               <li class="social__item social__item--footer">
                 <a class="social__link social__link--footer" href="#">
@@ -362,12 +366,12 @@
               </li>
             </ul>
           </div>
-          <div class="sign-up-footer">
-            <h3 class="sign-up-footer-label">Подпишитесь на рассылку</h3>
-            <form class="form-footer" action="">
-              <label for="form-footer-input"></label>
+          <div class="footer__sign-up">
+            <h3 class="footer__sign-up-label">Подпишитесь на рассылку</h3>
+            <form class="footer__form" action="">
+              <label for="footer__form-input"></label>
               <input
-                class="form-footer-input"
+                class="footer__form-input"
                 type="email"
                 name="email"
                 id="form-footer-input"
@@ -375,7 +379,7 @@
               />
               <button class="button button__footer" type="submit">
                 Подписаться
-                <svg class="footer-btn-svg">
+                <svg class="footer__btn-svg">
                   <use
                     href="./images/svg/footer-sub-svg/footer-sub.svg#icon-icon-send"
                   ></use>

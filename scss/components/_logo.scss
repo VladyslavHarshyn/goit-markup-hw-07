@@ -1,0 +1,27 @@
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    margin-right: 93px;
+    color: var(--accent-color);
+
+    &_colored-black {
+        color: $title-text-color;
+    }
+
+    &_colored-white {
+        color: $primary-white-color ;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 1200px) {
+    .logo {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 1201px) {
+    .logo {
+        font-size: 26px;
+    }
+}
