@@ -3,25 +3,15 @@
     font-weight: 700;
     text-decoration: none;
     margin-right: 93px;
-    color: var(--accent-color);
+    font-size: 26px;
+    line-height: 30px;
+    color: $accent-color;
 
-    &_colored-black {
-        color: $title-text-color;
+    &__colored-black {
+        color: #212121;
     }
 
-    &_colored-white {
-        color: $primary-white-color ;
-    }
-}
-
-@media (min-width: 481px) and (max-width: 1200px) {
-    .logo {
-        font-size: 24px;
-    }
-}
-
-@media (max-width: 1201px) {
-    .logo {
-        font-size: 26px;
+    &__colored-white {
+        color: #ffffff ;
     }
 }
